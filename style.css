@@ -127,3 +127,40 @@ footer {
     object-fit: cover;
     border-radius: 8px;
 }
+.contact-info, .contact-form-section {
+    background: rgba(255, 255, 255, 0.9);
+    padding: 25px;
+    border-radius: 12px;
+    margin-bottom: 25px;
+}
+
+.contact-gallery {
+    display: flex;
+    gap: 15px;
+    margin-top: 20px;
+}
+
+.contact-gallery img {
+    width: 33.3%;
+    height: 150px;
+    object-fit: cover;
+    border-radius: 8px;
+}
+
+.form-group {
+    margin-bottom: 15px;
+}
+
+.form-group label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+.form-group input {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+}

@@ -12,23 +12,52 @@
 </head>
 <body>
     <!-- Name: Tahsim Anjam Shroddha | ID: 2331195 -->
-<header>
-    <h1>Forevermark Diamond Jewellery</h1>
+
+ <header>
+        <h1>Forevermark Diamond Jewellery</h1>
+        <p> We would love to hear from you! Whether you have questions about our diamond jewellery collection, need product information, or want assistance choosing the perfect gift, our friendly team is always ready to help. Contact Forever Mark and let us make your shopping experience memorable.
+        </p>
+    </header>
+
     <nav>
         <a href="index.html">Home</a>
-        <a href="products.html">Products</a>
-        <a href="contact.html">Contact Us</a>
+        <a href="product.html">Products</a>
+        <a href="contactus.html">Contact Us</a>
     </nav>
-</header>
 
-<main>
-    <h2>Contact Us</h2>
-    <p>We are happy to help you find the perfect diamond jewellery for yourself or someone special.</p>
-    <p>Contact our team for product information, pricing, or assistance with your jewellery selection.</p>
-</main>
+    <main>
+        <section class="contact-info">
+            <h2>Contact Us</h2>
+            <p>Your satisfaction is our priority. Our customer support team is here to assist you with product inquiries, orders, custom jewellery requests, and other concerns. We are dedicated to providing a smooth, comfortable, and trustworthy shopping experience.
+                We are happy to help you find the perfect diamond jewellery for yourself or someone special.</p>
+            <p>Experience the beauty of diamonds with Forever Mark. Connect with us through our website, email, or social media platforms to explore our collection and receive the latest updates. Let us help you find something extraordinary that shines as beautifully as your memories.
+                Contact our team for product information, pricing, or assistance with your custom selection.</p>
 
-<footer>
-    <p>&copy; 2026 Forevermark Diamond Jewellery. All rights reserved.</p>
-</footer>
+            <div class="contact-gallery">
+                <img src="image7.jpg" alt="Showroom Desk">
+                <img src="image8.jpg" alt="Diamond Consultation">
+                <img src="image9.jpg" alt="Customer Care Service">
+            </div>
+        </section>
+
+        <section class="contact-form-section">
+            <h2>Send Us a Message</h2>
+            <form id="contactForm" onsubmit="event.preventDefault(); handleFormSubmit();">
+                <div class="form-group">
+                    <label for="username">Your Name:</label>
+                    <input type="text" id="username" placeholder="Enter your full name" required>
+                </div>
+                <div class="form-group">
+                    <label for="email">Your Email:</label>
+                    <input type="email" id="email" placeholder="Enter your email" required>
+                </div>
+                <button type="button" onclick="handleFormSubmit()">Send Message</button>
+            </form>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2026 Forevermark Diamond Jewellery. All rights reserved.</p>
+    </footer>
 </body>
 </html>
