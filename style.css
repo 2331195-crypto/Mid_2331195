@@ -203,3 +203,52 @@ text-align: center;
 padding: 20px;
 margin-top: 35px;
 }
+
+/* Homepage Introduction */
+.hero {
+display: flex;
+justify-content: center;
+align-items: center;
+padding: 35px;
+background: rgba(255, 255, 255, 0.88);
+border-radius: 15px;
+box-shadow: 0 5px 15px rgba(0, 0, 0, 0.10);
+}
+
+.hero-text {
+max-width: 900px;
+text-align: center;
+}
+
+.hero-text p {
+font-size: 15px;
+color: #555;
+}
+
+/* Homepage Gallery */
+.home-gallery {
+text-align: center;
+padding: 25px 0;
+}
+
+.home-gallery h2 {
+margin-bottom: 22px;
+}
+
+/* Three Equal Images */
+.hero-image {
+display: grid;
+grid-template-columns: repeat(3, minmax(0, 1fr));
+gap: 18px;
+max-width: 850px;
+margin: 0 auto;
+}
+
+.hero-image img {
+display: block;
+width: 100%;
+height: 160px;
+object-fit: cover;
+border-radius: 12px;
+box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+}
