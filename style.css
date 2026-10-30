@@ -97,3 +97,109 @@ text-align: center;
 padding: 18px;
 margin-top: 30px;
 }
+body {
+margin: 0;
+font-family: "Open Sans", sans-serif;
+background: linear-gradient(135deg, #f5e6d3, #f3d8cb);
+color: #333333;
+line-height: 1.7;
+}
+
+
+header {
+background: linear-gradient(120deg, #173a8a, #56358c);
+color: white;
+text-align: center;
+padding: 28px 20px;
+}
+
+header h1 {
+font-family: "Redaction", serif;
+font-size: 36px;
+margin: 0;
+}
+
+header p {
+margin: 8px 0 0;
+font-size: 14px;
+}
+
+
+nav {
+background-color: #191919;
+padding: 16px;
+text-align: center;
+}
+
+nav a {
+display: inline-block;
+color: white;
+text-decoration: none;
+margin: 0 18px;
+font-size: 14px;
+font-weight: bold;
+transition: color 0.3s ease;
+}
+
+nav a:hover {
+color: #e5bd72;
+}
+
+/* Main Content */
+main {
+max-width: 1200px;
+margin: 25px auto;
+padding: 0 20px;
+}
+
+/* Content Sections */
+section {
+margin-bottom: 25px;
+}
+
+.home-story,
+.product-intro,
+.contact-info {
+background: rgba(255, 255, 255, 0.88);
+padding: 30px;
+border-radius: 15px;
+box-shadow: 0 5px 15px rgba(0, 0, 0, 0.10);
+}
+
+h2,
+h3 {
+font-family: "Redaction", serif;
+color: #49334f;
+}
+
+h2 {
+font-size: 28px;
+}
+
+button,
+.button-link {
+display: inline-block;
+background-color: #a77a38;
+color: white;
+padding: 12px 22px;
+border: none;
+border-radius: 6px;
+text-decoration: none;
+font-family: "Open Sans", sans-serif;
+font-size: 14px;
+cursor: pointer;
+transition: background-color 0.3s ease;
+}
+
+button:hover,
+.button-link:hover {
+background-color: #795522;
+}
+
+footer {
+background-color: #191919;
+color: white;
+text-align: center;
+padding: 20px;
+margin-top: 35px;
+}
