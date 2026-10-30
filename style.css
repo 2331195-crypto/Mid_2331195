@@ -1,0 +1,41 @@
+/*
+Name: Tahsim Anjam Shroddha
+ID: 2331195
+*/
+
+body {
+font-family: Arial, sans-serif;
+margin: 0;
+padding: 0;
+background-color: #ffffff;
+color: #333333;
+}
+
+header {
+background-color: #1c1c1c;
+color: white;
+padding: 20px;
+text-align: center;
+}
+
+nav {
+margin-top: 15px;
+}
+
+nav a {
+color: white;
+text-decoration: none;
+margin: 0 15px;
+}
+
+main {
+padding: 30px;
+min-height: 300px;
+}
+
+footer {
+background-color: #1c1c1c;
+color: white;
+text-align: center;
+padding: 15px;
+}
