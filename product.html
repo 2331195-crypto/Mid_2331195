@@ -12,22 +12,52 @@
 </head>
 <body>
     <!-- Name: Tahsim Anjam Shroddha | ID: 2331195 -->
-<header>
-    <h1>Forevermark Diamond Jewellery</h1>
+ <header>
+        <h1>Forevermark Diamond Jewellery</h1>
+        <p>Our Exclusive Collection</p>
+    </header>
+
     <nav>
         <a href="index.html">Home</a>
         <a href="products.html">Products</a>
         <a href="contact.html">Contact Us</a>
     </nav>
-</header>
 
-<main>
-    <h2>Our Products</h2>
-    <p>Explore our collection of beautiful diamond jewellery, crafted to add brilliance to every occasion.</p>
-</main>
+    <main>
+        <section class="product-intro">
+            <h2>Our Featured Collection</h2>
+            <p>Explore our collection of beautiful diamond jewellery, crafted to add brilliance to every special occasion.</p>
+            <p>Each individual piece is cut with extreme precision, offering timeless elegance whether you are seeking engagement rings or statement necklaces.</p>
+            
+            <button onclick="showDiscountAlert()">Check Special Offers</button>
+        </section>
 
-<footer>
-    <p>&copy; 2026 Forevermark Diamond Jewellery. All rights reserved.</p>
-</footer>
+        <section class="product-grid">
+            <div class="product-card">
+                <img src="image4.jpg" alt="Diamond Necklace Showcase">
+                <h3>Signature Solitaire Necklace </h3>
+                <p>18K white gold setting featuring a brilliant center diamond.</p>
+                <button onclick="addToCart('Solitaire Necklace')">Add to Cart</button>
+            </div>
+
+            <div class="product-card">
+                <img src="image5.jpg" alt="Diamond Necklace Showcase">
+                <h3>Royal Pendant Necklace</h3>
+                <p>Hand-selected natural diamonds suspended on a platinum chain.</p>
+                <button onclick="addToCart('Royal Necklace')">Add to Cart</button>
+            </div>
+
+            <div class="product-card">
+                <img src="image10.jpg" alt="Luxury Diamond Set">
+                <h3>Halo Diamond Set </h3>
+                <p>Classic diamond studs surrounded by a luminous halo ring.</p>
+                <button onclick="addToCart('Halo Full set')">Add to Cart</button>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2026 Forevermark Diamond Jewellery. All rights reserved.</p>
+    </footer>
 </body>
 </html>
